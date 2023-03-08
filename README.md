@@ -7,6 +7,8 @@
       
 # PAGE LAYOUTS 
 
+<div style="display:flex;justify-content:center;align-items:center;flex-direction:column;">
+ 
   - HOME PAGE
 ![](./Happy-Mind/images/mobile-layout-hp.png)
 
@@ -21,3 +23,6 @@
 
   - MOBILE NAVIGATION 
 ![](./Happy-Mind/images/mobile-opened.png)
+ 
+ </div>
+ 

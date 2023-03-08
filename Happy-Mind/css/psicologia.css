@@ -1,0 +1,310 @@
+*,
+::after,
+::before {
+    -moz-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/*mobile responsive*/
+/*body*/
+body {
+    margin: auto;
+    text-align: justify;
+    background-color: hsl(260, 18%, 10%);
+    height: 1;
+}
+p,b{
+    color: white;
+}
+
+body::-webkit-scrollbar{
+    background-color: hsl(260, 18%, 10%);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.050);
+}
+
+main {
+    font-size: 30px;
+}
+
+main {
+    text-align: center;
+    line-height: 20px;
+}
+
+main span {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    background-color: #9b98e7;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+element {
+    display: flex;
+}
+
+.botao {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: nome;
+    background-color: #9b98e7;
+    border-radius: 100px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.botaoMais {
+    color: #9b98e7;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.botaoSabia {
+    color: #9b98e7;
+    font-weight: bolder;
+
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.espaco-pequeno {
+    margin-bottom: 30px;
+}
+
+.limita_tamanho {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.espaco-medio {
+    margin-bottom: 50px;
+}
+
+.psicologos-wrapper {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+
+
+}
+
+.psicologos-wrapper .psicologo-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 20%;
+    border-radius: 5px;
+    margin: 15px;
+    min-width: 200px;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: background-color .5s ease-out;
+}
+
+main a,
+main a:active,
+main a:hover,
+main a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.psicologos-wrapper .psicologo-wrapper>a {
+    height: 100%;
+}
+
+.psicologos-wrapper .psicologo-wrapper .psicologo {
+    position: relative;
+    background-color: #f8f8f8;
+    text-align: center;
+    height: 100%;
+    min-width: 200px;
+    padding: 30px 30px 100px;
+}
+
+.psicologos-wrapper .psicologo-wrapper .psicologo {
+    text-align: center;
+}
+
+.psicologo-imagem,
+.psicologos-wrapper .psicologo-wrapper .psicologo .img {
+    border-radius: 50%;
+    width: 100%;
+    max-height: 300px;
+    padding: 0;
+    margin: 0;
+    max-width: 300px;
+    background-color: #46c8ec;
+    overflow: hidden;
+    display: block;
+
+}
+
+.psicologos-wrapper .psicologo-wrapper .psicologo .psicologo-nome {
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #46c8ec;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.psicologos-wrapper .psicologo-wrapper .psicologo .psicologo-detalhes {
+    margin-top: 20px;
+    color: #555;
+    font-size: 1.3em;
+}
+
+.psicologos-wrapper .psicologo-wrapper .psicologo .psicologo-bot {
+    font-size: 1.3em;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    left: 0;
+    width: 100%;
+}
+
+.cd-paginacao,
+.centralizado {
+    text-align: center;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#banner-destaque.banner-psicologos {
+    background-image: url(../Images/banner-psicologos.png);
+}
+
+#banner-destaque {
+    min-height: 150px;
+}
+
+#banner-destaque {
+    min-height: 350px;
+    padding: 0;
+    margin: 0;
+    text-align:center ;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner-destaque,
+.blog-post-img {
+    background-position: center center;
+    background-size: cover;
+}
+
+/*img psicologio*/
+#imgP {
+    border: 2px solid #9b98e7;
+    padding: 5px;
+    border-radius: 500px;
+    width: 60%;
+}
+
+
+/*espaçamento entre os navs*/
+#Conheça .manu-btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+/*background do nav*/
+#Conheça #nav-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*background do nav*/
+#Conheça #nav-auto {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*espaçamento para o background ficar dentro do nav*/
+#Conheça #nav-auto div:not(:first-child) {
+    margin-left: 10px;
+}
+.psicologo-ver-mais-centralizado{
+    
+    text-align: center;
+}
+
+
+/*tablet responsive*/
+@media screen and (min-width: 736px) and (max-width: 1049px) {
+    main,
+    div.psicologos-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    main h1 #banner-destaque.banner-psicologos {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 10%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+}
+
+/*pc responsive*/
+@media screen and (min-width: 1050px) {
+    .psicologos-wrapper {
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /*main*/
+    main {
+        background-size: 100%;
+
+    }
+}

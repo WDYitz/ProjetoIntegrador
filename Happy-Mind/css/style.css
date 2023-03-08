@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@media screen and (min-width: 315px){
+    body{
+        margin:0;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* TELA INICIAL DE LOGIN */
+    .main-login{
+        height: 100vh;
+        background:  #201b2c;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 110px;
+    }
+    /* PARTE ESQUERDA DA TELA */
+    .left-login{
+        width: 360px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .left-login > h1{
+        display: none;
+        background-image: linear-gradient(45deg, #1b8eec, #ba18ec);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+       -moz-background-clip: text;
+       -moz-text-fill-color: transparent;
+       margin-left: 20%;
+    
+    }
+    
+    .left-login-image{
+        width: 150px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+    .left-login-image:hover{
+        transform: rotateY(360deg);
+       transition: 600ms;
+    }
+    
+    /* PARTE DIREITA DA TELA */
+    .right-login{
+        width: 360px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-login{
+        margin-bottom: 40px;
+        width: 230px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    
+    .card-login > h1{
+        color:#287ce9;
+        font-weight: 800;
+        margin:0;
+    }
+    .card-login > a:last-child{
+        text-decoration: none;
+       
+    }
+    .card-login > p{
+        color: white;
+    }
+    .textfield{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    
+    .textfield > input{
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background: #514869;
+        color: #f0ffff;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    .textfield > label{
+        color:#f0ffff;
+        margin-bottom: 10px;
+    }
+    
+    .textfield > input::placeholder{
+        color:#f0ffff94;
+    }
+    
+    .btn-login{
+        width: 100%;
+        padding: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #2b134b;
+        background: #21a5e2;
+        box-shadow: 0px 10px 40px -12px #2793ec;
+        cursor: pointer; 
+    }
+    .btn-login:hover{
+        color: white;
+        
+    }
+    a{
+        text-decoration: none;
+        margin-top: 15px;
+        color: white;
+    }
+    a:hover{
+        transition: 250ms;
+        color: rgb(216, 118, 247);
+        font-size: 18px;
+    }
+    
+    /* PAGINA ESQUECI A SENHA */
+    .card-senha{
+        
+        margin-top: 100px;
+        color: white;
+        width: 220px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    .card-senha > h1{
+       color:#2793ec;
+    }
+    #esqueci-senha{
+        background-color:#201b2c ;
+        display: flex;
+        justify-content:center;
+    }
+    
+    
+    /* PAGINA CRIAR CONTA */
+    .card-criar-conta{
+        width: 200px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 50px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+        margin: 0 auto;
+    }
+    #criar-conta{
+        background-color: #201b2c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #formulario-criar-conta{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #formulario-criar-conta > h1{
+       text-align: center;
+       color: white;
+    }
+    .card-criar-conta > p{
+        color: #f0ffff;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 520px){
+    body{
+        margin:0;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* TELA INICIAL DE LOGIN */
+    .main-login{
+        background:  #201b2c;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* PARTE ESQUERDA DA TELA */
+    .left-login{
+        width: 520px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .left-login > h1{
+        display: none;
+        background-image: linear-gradient(45deg, #1b8eec, #ba18ec);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+       -moz-background-clip: text;
+       -moz-text-fill-color: transparent;
+       margin-left: 20%;
+    
+    }
+    
+    .left-login-image{
+        width: 150px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+    .left-login-image:hover{
+        transform: rotateY(360deg);
+       transition: 600ms;
+    }
+    
+    /* PARTE DIREITA DA TELA */
+    .right-login{
+        width: 520px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-login{
+        margin-bottom: 40px;
+        width: 320px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    
+    .card-login > h1{
+        color:#287ce9;
+        font-weight: 800;
+        margin:0;
+    }
+    .card-login > a:last-child{
+        text-decoration: none;
+       
+    }
+    .card-login > p{
+        color: white;
+    }
+    .textfield{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    
+    .textfield > input{
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background: #514869;
+        color: #f0ffff;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    .textfield > label{
+        color:#f0ffff;
+        margin-bottom: 10px;
+    }
+    
+    .textfield > input::placeholder{
+        color:#f0ffff94;
+    }
+    
+    .btn-login{
+        width: 100%;
+        padding: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #2b134b;
+        background: #21a5e2;
+        box-shadow: 0px 10px 40px -12px #2793ec;
+        cursor: pointer; 
+    }
+    .btn-login:hover{
+        color: white;
+        
+    }
+    a{
+        text-decoration: none;
+        margin-top: 15px;
+        color: white;
+    }
+    a:hover{
+        transition: 250ms;
+        color: rgb(216, 118, 247);
+        font-size: 18px;
+    }
+    
+    /* PAGINA ESQUECI A SENHA */
+    .card-senha{
+        margin-top: 100px;
+        width: 300px;
+        color: white;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    .card-senha > h1{
+       color:#2793ec;
+    }
+    #esqueci-senha{
+        background-color:#201b2c ;
+        display: flex;
+        justify-content:center;
+    }
+    
+    
+    /* PAGINA CRIAR CONTA */
+    .card-criar-conta{
+        width: 300px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 50px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    #criar-conta{
+        background-color: #201b2c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #formulario-criar-conta{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #formulario-criar-conta > h1{
+       text-align: center;
+       color: white;
+    }
+    .card-criar-conta > p{
+        color: #f0ffff;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width: 1000px){
+    
+    body{
+        
+        margin:0;
+        font-family: 'Noto Sans', sans-serif;
+    }
+    /* TELA INICIAL DE LOGIN */
+    .main-login{
+        background:  #201b2c;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 77.2vh;
+    }
+    /* PARTE ESQUERDA DA TELA */
+    .left-login{
+        width: 500px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 5px;
+    }
+    
+    .left-login > h1{
+        margin-right: 100px;
+        text-align: center;
+        display: block;
+        background-image: linear-gradient(45deg, #1b8eec, #ba18ec);
+        -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+       -moz-background-clip: text;
+       -moz-text-fill-color: transparent;
+       margin-left: 20%;
+    
+    }
+    
+    .left-login-image{
+        width: 140px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .left-login-image:hover{
+        transform: rotateY(360deg);
+       transition: 600ms;
+    }
+    
+    /* PARTE DIREITA DA TELA */
+    .right-login{
+        width: 500px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-login{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        width: 300px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    
+    .card-login > h1{
+        color:#287ce9;
+        font-weight: 800;
+        margin:0;
+    }
+    .card-login > a:last-child{
+        text-decoration: none;
+       
+    }
+    .card-login > p{
+        color: white;
+    }
+    .textfield{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 10px 0px;
+    }
+    
+    .textfield > input{
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background: #514869;
+        color: #f0ffff;
+        font-size: 12pt;
+        box-shadow: 0px 10px 40px #00000056;
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    .textfield > label{
+        color:#f0ffff;
+        margin-bottom: 10px;
+    }
+    
+    .textfield > input::placeholder{
+        color:#f0ffff94;
+    }
+    
+    .btn-login{
+        width: 100%;
+        padding: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #2b134b;
+        background: #21a5e2;
+        box-shadow: 0px 10px 40px -12px #2793ec;
+        cursor: pointer; 
+    }
+    .btn-login:hover{
+        color: white;
+        
+    }
+    a{
+        text-decoration: none;
+        margin-top: 15px;
+        color: white;
+    }
+    a:hover{
+        transition: 250ms;
+        color: rgb(216, 118, 247);
+        font-size: 18px;
+    }
+    
+    /* PAGINA ESQUECI A SENHA */
+    .card-senha{
+        margin-top: 100px;
+        width: 400px;
+        color: white;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 35px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    .card-senha > h1{
+       color:#2793ec;
+    }
+    #esqueci-senha{
+        background-color:#201b2c ;
+        display: flex;
+        justify-content:center;
+    }
+    
+    
+    /* PAGINA CRIAR CONTA */
+    .card-criar-conta{
+        width: 505px;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 50px;
+        background: #2f2841;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    #criar-conta{
+        background-color: #201b2c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #formulario-criar-conta{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #formulario-criar-conta > h1{
+       text-align: center;
+       color: white;
+    }
+    .card-criar-conta > p{
+        color: #f0ffff;
+    }
+    
+    
+    
+}
+#voltar {
+    position: absolute;
+    left: 30px;
+    margin-top: 15px;
+    color: #1b8eec;
+    text-decoration: none;
+    font-size: 2em;
+  }
+  #voltar:hover {
+    color: #ba18ec;
+    transition: 1s;
+  }
+

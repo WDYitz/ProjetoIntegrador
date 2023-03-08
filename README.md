@@ -7,7 +7,7 @@
       
 # PAGE LAYOUTS 
 
-<div align="center">
+<div align="center" display="flex" flex-direction="column" >
  
   - HOME PAGE
 ![](./Happy-Mind/images/mobile-layout-hp.png)

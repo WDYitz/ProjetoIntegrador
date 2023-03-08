@@ -3,6 +3,8 @@
  # Projeto focado area da saúde mental.
       - Sistema de agendamento de Consultas
       - Verificação dos Psicologos( DESKTOP VERSION )
+      - Integração de novos Psicologos
+      
       
       
 # PAGE LAYOUTS 

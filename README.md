@@ -9,19 +9,19 @@
 
 <div align="center" display="flex" flex-direction="column" >
  
-  - HOME PAGE
+
 ![](./Happy-Mind/images/mobile-layout-hp.png)
  <br></br>
-  - PAGINA DE PSICOLOGOS
+ 
 ![](./Happy-Mind/images/mobile-layout-psicologos-hp.png)
  <br></br>
-  - PAGINA DE PERFIL
+
 ![](./Happy-Mind/images/mobile-layout-perfil-hp.png)
  <br></br>
-  - PAGINA DE CONSULTA
+
 ![](./Happy-Mind/images/mobile-layout-cadConsulta-pg.png)
  <br></br>
-  - MOBILE NAVIGATION 
+
 ![](./Happy-Mind/images/mobile-opened.png)
   <br></br>
   

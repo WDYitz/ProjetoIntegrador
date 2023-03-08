@@ -8,16 +8,16 @@
 # PAGE LAYOUTS 
 
   - HOME PAGE
-(Happy-Mind/images/mobile-layout-hp.png)
+![](./Happy-Mind/images/mobile-layout-hp.png)
 
   - PAGINA DE PSICOLOGOS
-(Happy-Mind/images/mobile-layout-psicologos-hp.png)
+![](./Happy-Mind/images/mobile-layout-psicologos-hp.png)
 
   - PAGINA DE PERFIL
-(Happy-Mind/images/mobile-layout-perfil-hp.png)
+![](./Happy-Mind/images/mobile-layout-perfil-hp.png)
 
   - PAGINA DE CONSULTA
-(Happy-Mind/images/mobile-layout-cadConsulta-pg.png)
+![](./Happy-Mind/images/mobile-layout-cadConsulta-pg.png)
 
   - MOBILE NAVIGATION 
-(Happy-Mind/images/mobile-opened.png)
+![](./Happy-Mind/images/mobile-opened.png)

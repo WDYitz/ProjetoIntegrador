@@ -7,22 +7,23 @@
       
 # PAGE LAYOUTS 
 
-<div style="display:flex;justify-content:center;align-items:center;">
+<div align="center">
  
   - HOME PAGE
 ![](./Happy-Mind/images/mobile-layout-hp.png)
-
+ <br></br>
   - PAGINA DE PSICOLOGOS
 ![](./Happy-Mind/images/mobile-layout-psicologos-hp.png)
-
+ <br></br>
   - PAGINA DE PERFIL
 ![](./Happy-Mind/images/mobile-layout-perfil-hp.png)
-
+ <br></br>
   - PAGINA DE CONSULTA
 ![](./Happy-Mind/images/mobile-layout-cadConsulta-pg.png)
-
+ <br></br>
   - MOBILE NAVIGATION 
 ![](./Happy-Mind/images/mobile-opened.png)
- 
+  <br></br>
+  
  </div>
  

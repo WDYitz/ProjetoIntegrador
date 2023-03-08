@@ -1,6 +1,6 @@
 # PROJETO INTEGRADOR HAPPY MIND
  
- # Projeto criado focado na area da saúde mental.
+ # Projeto focado area da saúde mental.
       - Sistema de agendamento de Consultas
       - Verificação dos Psicologos( DESKTOP VERSION )
       
